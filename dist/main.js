@@ -16,7 +16,7 @@
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/esm/entry/pureFunctionsAny.generated.js\");\n\n\n\nconsole.log(\"Hello from JS\")\n\nconsole.log(moment__WEBPACK_IMPORTED_MODULE_0___default()().format());\nconsole.log((0,mathjs__WEBPACK_IMPORTED_MODULE_1__.sqrt)(-4).toString()) // 2i\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var mathjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/esm/entry/pureFunctionsAny.generated.js\");\n\n\nconsole.log(\"Hello from JS\");\nconsole.log(moment__WEBPACK_IMPORTED_MODULE_0___default()().format());\nconsole.log((0,mathjs__WEBPACK_IMPORTED_MODULE_1__.sqrt)(-4).toString()); // 2i\n\nvar array = [[1, 3], [8, 9], [2, 16]];\nvar sum = 0;\narray.forEach(function (pair) {\n  sum += pair[0] + pair[1];\n});\nconsole.log(sum);\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
